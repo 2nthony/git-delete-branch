@@ -11,7 +11,9 @@
   "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
   "main": "lib/index.js",
   "files": [
-    "*.js"
+    "bin",
+    "lib",
+    "utils"
   ],
   "scripts": {},
   "dependencies": {
