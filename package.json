@@ -1,0 +1,39 @@
+{
+  "name": "git-delete-branch",
+  "description": "🔌Tooling for delete git branches",
+  "version": "0.0.1",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "evillt/git-delete-branch"
+  },
+  "bin": "bin/cli.js",
+  "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
+  "main": "lib/index.js",
+  "scripts": {},
+  "dependencies": {
+    "cac": "^6.5.2",
+    "cross-spawn": "^6.0.5",
+    "kleur": "^3.0.3",
+    "mri": "^1.1.4",
+    "multimatch": "^4.0.0"
+  },
+  "devDependencies": {
+    "husky": "^1.0.0-rc.13",
+    "lint-staged": "^7.2.0",
+    "prettier": "^1.17.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "linters": {
+      "*.{js,json,md}": [
+        "prettier --write",
+        "git add"
+      ]
+    }
+  }
+}
