@@ -12,15 +12,15 @@ jobs:
       - restore_cache:
           key: v1-dependency-cache-{{ checksum "yarn.lock" }}
       - run:
-          name: Test
-          command: yarn test
-      - run:
           name: Install dependencies
           command: yarn
       - save_cache:
           key: v1-dependency-cache-{{ checksum "yarn.lock" }}
           paths:
             - ./node_modules
+      - run:
+          name: Test
+          command: yarn test
       - run:
           name: Release
           command: npx semantic-release
