@@ -14,7 +14,7 @@ Please consider starring the project to show your ❤️ and support.
 
 - Support delete matched branches. e.g.`fix/*`
 
-## Prerequires
+## Prerequisites
 
 - git
 - node.js
