@@ -6,3 +6,9 @@ test('main', t => {
   const stdout = ps.stdout.toString()
   t.is(stdout, '')
 })
+
+test('Remotes branch', t => {
+  const ps = spawn.sync('./bin/cli.js', ['test', '-r'])
+  const stdout = ps.stdout.toString()
+  t.is(stdout, '')
+})
