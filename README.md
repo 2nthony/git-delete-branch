@@ -30,12 +30,14 @@ yarn global add git-delete-branch
 Basically:
 
 ```console
+git-db [...branches]
 git-delete-branch [...branches]
 ```
 
 Or using git external commands:
 
 ```console
+git db [...branches]
 git delete-branch [...branches]
 ```
 
@@ -49,9 +51,16 @@ Delete branches
 
 ### `options`
 
-#### `-r, --remote` (WIP)
+#### `-r, --remote`
 
-Delete remote branches
+Delete remotes branches
+
+#### `--scope`
+
+- Default: `origin`
+- When: `-r, --remote`
+
+Branches scope name
 
 ## Contributing
 
