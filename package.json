@@ -7,7 +7,10 @@
     "type": "git",
     "url": "evillt/git-delete-branch"
   },
-  "bin": "bin/cli.js",
+  "bin": {
+    "git-db": "bin/cli.js",
+    "git-delete-branch": "bin/cli.js"
+  },
   "author": "evillt <ijoec123@gmail.com> (https://evila.me)",
   "main": "lib/index.js",
   "files": [
