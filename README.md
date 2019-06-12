@@ -10,15 +10,15 @@ Please consider starring the project to show your ❤️ and support.
 [![License](https://badgen.net/npm/license/git-delete-branch)](./LICENSE)
 [![donate](https://badgen.net/badge/support%20me/donate/f2a)](https://donate.evila.me)
 
+## Features
+
+- Support delete matched branches. e.g.`feat-*`
+
 ## Screenshot
 
 <p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/19513289/59366614-28fafd80-8d6d-11e9-871d-9096c4e74a63.png">
+  <img width="600" src="https://user-images.githubusercontent.com/19513289/59367597-0538b700-8d6f-11e9-9633-dc867789e36d.png">
 </p>
-
-## Features
-
-- Support delete matched branches. e.g.`fix/*`
 
 ## Prerequisites
 
