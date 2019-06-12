@@ -55,7 +55,7 @@ Delete branches
 
 Delete remotes branches
 
-#### `--scope`
+#### `--scope <scope>`
 
 - Default: `origin`
 - When: `-r, --remote`
