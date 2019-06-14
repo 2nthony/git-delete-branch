@@ -1,6 +1,6 @@
 {
   "name": "git-delete-branch",
-  "description": "🔌Tooling for delete git branches",
+  "description": "🔌Git delete branch enhancement tooling",
   "version": "0.0.1",
   "license": "MIT",
   "repository": {
