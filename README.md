@@ -14,11 +14,14 @@ Please consider starring the project to show your ❤️ and support.
 
 - Support delete matched branches. e.g.`feat-*`
 
-## Screenshot
+## Demo
 
 <p align="center">
-  <img width="600" src="https://user-images.githubusercontent.com/19513289/59367597-0538b700-8d6f-11e9-9633-dc867789e36d.png">
+  <!-- <img width="600" src="https://user-images.githubusercontent.com/19513289/59367597-0538b700-8d6f-11e9-9633-dc867789e36d.png"> -->
+  <img src="./git-delete-branch.svg">
 </p>
+
+<!-- ![](./git-delete-branch.svg) -->
 
 ## Prerequisites
 
