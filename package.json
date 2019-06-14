@@ -19,14 +19,15 @@
     "utils"
   ],
   "scripts": {
-    "test": "ava"
+    "test": "ava --verbose"
   },
   "dependencies": {
     "cac": "^6.5.2",
     "cross-spawn": "^6.0.5",
     "kleur": "^3.0.3",
     "mri": "^1.1.4",
-    "multimatch": "^4.0.0"
+    "multimatch": "^4.0.0",
+    "ora": "^3.4.0"
   },
   "devDependencies": {
     "ava": "^2.1.0",
