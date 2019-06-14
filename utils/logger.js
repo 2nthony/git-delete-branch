@@ -14,20 +14,8 @@ class Logger {
     this.log(kleur.red('error'), ...args)
   }
 
-  warn(...args) {
-    this.log(kleur.yellow('warning'), ...args)
-  }
-
   done(...args) {
     this.log(kleur.green(process.platform === 'win32' ? '√' : '✔'), ...args)
-  }
-
-  tip(...args) {
-    this.log(kleur.blue('tip'), ...args)
-  }
-
-  info(...args) {
-    this.log(kleur.cyan('info'), ...args)
   }
 }
 
