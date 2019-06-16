@@ -14,8 +14,6 @@ Please consider starring the project to show your ❤️ and support.
 
 - Support delete matched branches. e.g.`feat-*`
 
-## Demo
-
 <p align="center">
   <img src="https://unpkg.com/@evillt/media/projects/git-delete-branch/main.svg">
 </p>
@@ -25,26 +23,31 @@ Please consider starring the project to show your ❤️ and support.
 - git
 - node.js
 
-## Install
-
-```console
-yarn global add git-delete-branch
-```
-
 ## Usage
 
-Basically:
+One-off usage via `npx`:
 
-```console
-git-db [...branches]
-git-delete-branch [...branches]
+```sh
+$ npx git-delete-branch [...branches]
+
+# Example
+$ npx git-delete-branch dev test-*
 ```
 
-Or using git external commands:
+Using it globally:
 
-```console
-git db [...branches]
-git delete-branch [...branches]
+```sh
+$ npm i -g git-dlete-branch
+
+# Or using yarn
+$ yarn global add git-delete-branch
+
+$ git-db [...branches]
+$ git-delete-branch [...branches]
+
+# Or using git external commands
+$ git db [...branches]
+$ git delete-branch [...branches]
 ```
 
 ## CLI
