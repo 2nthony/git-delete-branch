@@ -15,7 +15,7 @@ Please consider starring the project to show your ❤️ and support.
 - Support delete matched branches. e.g.`feat-*`
 
 <p align="center">
-  <img src="https://unpkg.com/@evillt/media/projects/git-delete-branch/main.svg">
+  <img src="https://unpkg.com/@evillt/media@latest/projects/git-delete-branch/main.svg">
 </p>
 
 ## Prerequisites
