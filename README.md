@@ -71,6 +71,10 @@ Delete remotes branches
 
 Branches scope name
 
+## Relates
+
+- [git-delete-tag](https://github.com/evillt/git-delete-tag)
+
 ## Contributing
 
 1. Fork it!
